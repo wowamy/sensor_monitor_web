@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enviroment Data</title>
+</head>
+<body>
+<div style="font-weight:bold;font-size:40px;text-align:center;font-size:80px">
+    Enviroment Data
+</div>
+<center>
+<table style="text-align:center;font-size:50px">
+    <tr>
+        <td>
+            <div style="background-color:#00FF80;width:900px;height:100px;">
+                    Temperature
+            </div>
+            <div id="Temperature" style="background-color:#00FF80;width:900px;height:100px;">
+                0
+                <script>
+                    function randomnum(){
+                    var num = Math.floor(Math.random()*10);
+                    var num1 = num.toLocaleString();
+                    var dda = document.getElementById("Temperature");
+                    dda.innerHTML = num1;
+                    }
+                    setInterval(randomnum,1000);
+                </script>
+            </div>
+        </td>
+        <td>
+            <div style="background-color:#00FF80;width:900px;height:100px;">
+                CO2
+            </div>
+            <div id="CO2" style="background-color:#00FF80;width:900px;height:100px;">
+                0
+                <script>
+                    function randomnum(){
+                    var num = Math.floor(Math.random()*10);
+                    var num1 = num.toLocaleString();
+                    var dda = document.getElementById("CO2");
+                    dda.innerHTML = num1;
+                    }
+                    setInterval(randomnum,1000);
+                </script>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <div style="background-color:#00FF80;width:900px;height:100px;">
+                PM2.5
+            </div>
+            <div id="PM2.5" style="background-color:#00FF80;width:900px;height:100px;">
+                0
+                <script>
+                    function randomnum(){
+                    var num = Math.floor(Math.random()*10);
+                    var num1 = num.toLocaleString();
+                    var dda = document.getElementById("PM2.5");
+                    dda.innerHTML = num1;
+                    }
+                    setInterval(randomnum,1000);
+                </script>
+            </div>
+        </td>
+        <td>
+            <div style="background-color:#00FF80;width:900px;height:100px;">
+                Dust
+            </div>
+            <div id="Dust" style="background-color:#00FF80;width:900px;height:100px;">
+                0
+                <script>
+                    function randomnum(){
+                    var num = Math.floor(Math.random()*10);
+                    var num1 = num.toLocaleString();
+                    var dda = document.getElementById("Dust");
+                    dda.innerHTML = num1;
+                    }
+                    setInterval(randomnum,1000);
+                </script>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <div style="background-color:#00FF80;width:900px;height:100px;">
+                Humidty
+            </div>
+            <div id="Humidty" style="background-color:#00FF80;width:900px;height:100px;">
+                0
+                <script>
+                    function randomnum(){
+                    var num = Math.floor(Math.random()*10);
+                    var num1 = num.toLocaleString();
+                    var dda = document.getElementById("Humidty");
+                    dda.innerHTML = num1;
+                    }
+                    setInterval(randomnum,1000);
+                </script>
+            </div>
+        </td>
+        <td>
+            <div style="background-color:#00FF80;width:900px;height:100px;">
+                Radiation
+            </div>
+            <div id="Radiation" style="background-color:#00FF80;width:900px;height:100px;">
+                0
+                <script>
+                    function randomnum(){
+                    var num = Math.floor(Math.random()*10);
+                    var num1 = num.toLocaleString();
+                    var dda = document.getElementById("Radiation");
+                    dda.innerHTML = num1;
+                    }
+                    setInterval(randomnum,1000);
+                </script>
+            </div>
+        </td>
+    </tr>
+
+</table>
+</center>
+
+</body>
+</html>
